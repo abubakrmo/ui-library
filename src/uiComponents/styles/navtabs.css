@@ -12,7 +12,7 @@
     cursor: pointer;
   }
   .navtabs .trigger.active{
-    background: #ff6565;
+    background: #4e54c8;
     color: white;
   }
   .navtabs .content{
