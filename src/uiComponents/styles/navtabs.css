@@ -1,0 +1,26 @@
+.navtabs > ul{
+    padding: 0;
+  }
+  .navtabs .trigger{
+    list-style-type: none;
+    padding: 10px;
+    background: #f2f2f2;
+    margin: 4px;
+    border-radius: 6px;
+    display: inline-block;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  .navtabs .trigger.active{
+    background: #ff6565;
+    color: white;
+  }
+  .navtabs .content{
+    background: #fbfbfb;
+    padding: 10px 20px;
+    border-radius: 6px;
+    display: none;
+  }
+  .navtabs .content.active{
+    display: block;
+  }
